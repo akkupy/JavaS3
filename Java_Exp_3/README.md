@@ -1,4 +1,4 @@
-### List Of Programs and Output 
+### List Of Programs and Output for Experiment 3
 
 [student.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_3/student.java) - Program to create a student class with name, roll no and marks of five
             subjects. Write functions to read and display the details.

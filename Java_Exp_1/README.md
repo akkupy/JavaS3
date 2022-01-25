@@ -1,8 +1,12 @@
 ### List Of Programs and Output for Experiment 1
 
 [hello_world.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_1/hello_world.java) - Program to print hello world
-![](https://github.com/akkupy/JavaS3/blob/master/Outputs/Java_exp_1/hello_world.png =200x200) 
-            
+'''
+Enter two numbers to add : 
+
+5 6
+Sum is 11
+'''            
 [add_two_numbers.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_1/add_two_numbers.java) - Program to add two numbers.
 ![](https://github.com/akkupy/JavaS3/blob/master/Outputs/Java_exp_1/add_two_numbers.png)
                     

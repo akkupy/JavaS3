@@ -58,3 +58,16 @@ Rectangle has 4 sides.
 Triangle has 3 sides.
 Hexagon has 6 sides.
 ```  
+
+[engineer_employee.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_4/engineer_employee.java) - Write two Java classes Employee and Engineer. Engineer should inherit from Employee class. Employee class to have two methods display() and calcSalary(). Write a program to display the engineer salary and to display from Employee class using a single object instantiation (i.e., only one object creation is allowed).
+
+a. display() only prints the name of the class and does not return any value. Ex. “Name of class is Employee.”
+
+b. calcSalary() in Employee displays “Salary of employee is 10000” and calcSalary() in Engineer displays “Salary of employee is 20000.”
+
+
+```
+Name of class is Employee.
+Salary of Employee is 10000
+Salary of Engineer is 20000
+```  

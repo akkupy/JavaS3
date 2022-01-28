@@ -62,13 +62,18 @@ Hexagon has 6 sides.
 [Garbage.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_4/Garbage.java) - Write a Java program to demonstrate the use of garbage collector.
 
 ```
-Enter the Name of Student : Akash
-Enter the Roll No : 12
-Enter Phone Number : 1231234
+Enter the Name of Student : 
+Akash
+Enter the Roll No : 
+09
+Enter Phone Number : 
+123456
+
+ Details
 
 The Name of Student is Akash
-Enter the Roll No : 12
-Enter Phone Number : 1231234
+Roll No is 9
+Phone Number is 123456
 
 Garbage of Object Collected
 ```  

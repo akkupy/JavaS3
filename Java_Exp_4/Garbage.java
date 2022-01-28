@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class Garbage{
 
-    public static void main(String args[]) {  
-        
+public class Garbage{
+    
+    public static void main(String args[])  {  
         Student obj=new Student();  
         obj.getDetails();
         obj.showDetails();
@@ -14,27 +14,30 @@ public class Garbage{
 
 class Student {
     Scanner sc = new Scanner(System.in);
-    
+
     String name,number;
     int rollno;
        
     void getDetails() {
-        System.out.printf("Enter the Name of Student : ");
+        System.out.println("Enter the Name of Student : ");
         name = sc.next();
-        System.out.printf("Enter the Roll No : ");
+        System.out.println("Enter the Roll No : ");
         rollno = sc.nextInt();
-        System.out.printf("Enter Phone Number : ");
+        System.out.println("Enter Phone Number : ");
         number = sc.next();
 
     }
 
     void showDetails() {
-        System.out.printf("\nThe Name of Student is %s \n",name);
-        System.out.printf("Enter the Roll No : %d \n",rollno);
-        System.out.printf("Enter Phone Number : %s \n",number);
+
+    System.out.println("\n Details\n");
+    System.out.println("The Name of Student is " +name);
+    System.out.println("Roll No is " +rollno);
+    System.out.println("Phone Number is " +number);
+
     }
 
     protected void finalize() {
-           System.out.println("\nGarbage of Object Collected");
+        System.out.println("\nGarbage of Object Collected");
     }
 }

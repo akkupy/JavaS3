@@ -59,6 +59,21 @@ Triangle has 3 sides.
 Hexagon has 6 sides.
 ```  
 
+[Garbage.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_4/Garbage.java) - Write a Java program to demonstrate the use of garbage collector.
+
+```
+Enter the Name of Student : Akash
+Enter the Roll No : 12
+Enter Phone Number : 1231234
+
+The Name of Student is Akash
+Enter the Roll No : 12
+Enter Phone Number : 1231234
+
+Garbage of Object Collected
+```  
+
+
 [engineer_employee.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_4/engineer_employee.java) - Write two Java classes Employee and Engineer. Engineer should inherit from Employee class. Employee class to have two methods display() and calcSalary(). Write a program to display the engineer salary and to display from Employee class using a single object instantiation (i.e., only one object creation is allowed).
 
 a. display() only prints the name of the class and does not return any value. Ex. “Name of class is Employee.”

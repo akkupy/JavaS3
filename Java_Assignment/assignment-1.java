@@ -52,7 +52,7 @@ class assignment_1
    }
   }
   System.out.println("Name of the student with highest CGPA : "+s[l].name);
-  System.out.println("Phone no. of Anu : "+s[n].phno);
+  System.out.println("Phone no. of ANU : "+s[n].phno);
   System.out.println("Roll no. of youngest student : "+s[a].rno);
  }
 }

@@ -1,5 +1,6 @@
 import javax.swing.*;  
 import java.awt.event.*; 
+import java.sql.*;
 
 
 class gui implements ActionListener{  
@@ -13,8 +14,8 @@ class gui implements ActionListener{
         JLabel label0 = new JLabel("DETAILS");
         label0.setVerticalAlignment(JLabel.TOP);
 
-        JLabel label1 = new JLabel("Enter Student Adm Number :");
-        label1.setBounds(50,150,400,40);
+        JLabel label1 = new JLabel("Enter Student Adm Number(eg:101) :");
+        label1.setBounds(40,150,400,40);
 
         tf1=new JTextField();  
         tf1.setBounds(250,150,300,40); 
@@ -52,21 +53,44 @@ class gui implements ActionListener{
         f.setLayout(null);  
         f.setVisible(true);  
     }         
-    public void actionPerformed(ActionEvent e) {  
-        String s1=tf1.getText();  
+    public void actionPerformed(ActionEvent e) {
 
-        int a=Integer.parseInt(s1);  
-    
-        int c=0;  
+        String s1=tf1.getText();  
+        int a=Integer.parseInt(s1); 
+         
+     
         if(e.getSource()==b1){  
-            c=a+8;  
+            
+            try {
+
+                Class.forName("com.mysql.jdbc.Driver");
+                Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","@kkusarah");
+
+                PreparedStatement stmt=con.prepareStatement("select * from details where adm_no=?");
+
+                stmt.setInt(1,a);
+                ResultSet rs=stmt.executeQuery();
+    
+                while(rs.next()) {
+    
+                    String name = rs.getString(2);
+                    int age = rs.getInt(3);
+                    String address = rs.getString(4);
+                    String ages=String.valueOf(age);  
+                    tf2.setText(name); 
+                    tf3.setText(ages);
+                    tf4.setText(address);
+                }
+            con.close();
+            }
+            catch (Exception k){System.out.println(k);} 
         } 
-        String result=String.valueOf(c);  
-        tf3.setText(result);  
+         
     }  
 }
 
 class assignment_2 {
-public static void main(String[] args) {  
-    new gui();  
-} }  
+    public static void main(String[] args) { 
+        new gui();  
+    }
+}  

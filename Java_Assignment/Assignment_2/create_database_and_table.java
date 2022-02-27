@@ -4,7 +4,7 @@ public class create_database_and_table {
         try {
 
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306","root","@kkusarah");
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306","root","root");
             Statement stmt=con.createStatement();
 
             int a = stmt.executeUpdate("create database student");

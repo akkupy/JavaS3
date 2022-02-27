@@ -64,7 +64,7 @@ class gui implements ActionListener{
             try {
 
                 Class.forName("com.mysql.jdbc.Driver");
-                Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","@kkusarah");
+                Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","root");
 
                 PreparedStatement stmt=con.prepareStatement("select * from details where adm_no=?");
 

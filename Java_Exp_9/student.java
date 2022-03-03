@@ -6,7 +6,7 @@ public class student {
         try {
             Scanner sc = new Scanner(System.in);
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/data?autoReconnect=true&useSSL=false", "root", "@kkusarah");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/data?autoReconnect=true&useSSL=false", "root", "root");
             Statement stmt = con.createStatement();
             System.out.print("Enter How Many Student : ");
             int n = sc.nextInt();

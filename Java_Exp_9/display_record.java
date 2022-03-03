@@ -5,7 +5,7 @@ class display_record
     {
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/data?autoReconnect=true&useSSL=false","root","@kkusarah");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/data?autoReconnect=true&useSSL=false","root","root");
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("select * from studentdetails");
             System.out.println("No \t Name \t\t Age \t\t Place" );

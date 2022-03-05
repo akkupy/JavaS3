@@ -29,8 +29,8 @@ https://user-images.githubusercontent.com/69421964/156644915-93855fd2-fa2a-43b7-
 
 
 [draw_shapes.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_8/draw_shapes.java) - Write a Java program that allows the user to draw lines, rectangles and ovals.
-```
-```   
+![draw_shape](https://user-images.githubusercontent.com/69421964/156879158-72ce9e2a-e795-4713-9ef2-3ff9ab532416.png)
+
 
 [WavePrint.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_8/WavePrint.java) - Write a Java Swing program to print a wave form on the output screen.
 

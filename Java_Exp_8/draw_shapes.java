@@ -21,7 +21,7 @@ class draw_shapes extends Canvas {
         		g.drawLine(180,30,180,100);
         		g.drawLine(140,30,180,100);
         		g.drawLine(180,30,140,100);
-        	    g.drawLine(140,100,180,100);
+        	    	g.drawLine(140,100,180,100);
         		g.drawLine(140,30,180,30);
         	}
         }

@@ -32,9 +32,9 @@ https://user-images.githubusercontent.com/69421964/156644915-93855fd2-fa2a-43b7-
 ```
 ```   
 
-[wave_form.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_8) - Write a Java Swing program to print a wave form on the output screen.
-```
-```   
+[WavePrint.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_8/WavePrint.java) - Write a Java Swing program to print a wave form on the output screen.
+
+![Wave Pattern](https://user-images.githubusercontent.com/69421964/156873054-07c5f514-8fd7-481c-999b-0121b4011699.png)
 
 [student.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_9/student.java) - Write a program to accept rollno, name, CGPA of “n” students and store the data to a database using JDBC connectivity. Display the list of students having CGPA greater than 7. (Use MySQL /PostgreSQL).
 ```

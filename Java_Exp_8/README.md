@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/69421964/156644691-de605a7d-532e-430e-
 https://user-images.githubusercontent.com/69421964/156644915-93855fd2-fa2a-43b7-a80b-f765a27bb622.mp4
 
 
-[draw_shapes.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_8) - Write a Java program that allows the user to draw lines, rectangles and ovals.
+[draw_shapes.java](https://github.com/akkupy/JavaS3/blob/master/Java_Exp_8/draw_shapes.java) - Write a Java program that allows the user to draw lines, rectangles and ovals.
 ```
 ```   
 
